@@ -8,13 +8,13 @@ export class MailerService {
         const transporter = nodemailer.createTransport({
           service: 'Gmail',
           auth: {
-            user: 'barkhustn@gmail.com',
-            pass: 'Economie1'
+            user: 'xxxxxx@gmail.com',
+            pass: 'xxxxxxx'
           }
         });
         const mailOptions = {
-            from: 'barkhustn@gmail.com',
-            to: 'barkhustn@gmail.com',
+            from: 'xxxxxxx@gmail.com',
+            to: 'xxxxxx@gmail.com',
             subject: 'Sending Email using Node.js package nodemailer',
             html: '<a href="#" alt="just an example">This is Your Link :)</a>'
           };
